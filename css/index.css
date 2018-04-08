@@ -1,0 +1,162 @@
+.filterNav li{
+  list-style: none;
+  margin-top: 15px;
+}
+
+.filterNav li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 100;
+  transition: .3s all ease;
+}
+
+.filterNav li a:hover{
+  color: #666;
+}
+
+#loginButton li {
+  list-style: none;
+  margin-top: 15px;
+  margin-right: 3%;
+}
+
+#loginButton li a {
+  text-decoration: none;
+  font-weight: 100;
+  color: #fff;
+  transition: .3s all ease;
+}
+
+#loginButton li a:hover{
+  color: #666;
+}
+
+.filterNav li{
+  display: inline;
+  float: left;
+  margin-right: 20px;
+}
+
+#loginButton li{
+  float: right;
+}
+
+#mainNav {
+  background-color: black;
+  margin-bottom: 100px;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  opacity: .8;
+}
+
+body {
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+#eachMovie{
+  text-align: center;
+  color: #fff;
+  float: left;
+  font-size: 10px;
+  margin-bottom: 80px;
+}
+
+#eachMovie img{
+  width: 280px;
+}
+
+#poster {
+  height: 400px;
+  overflow: hidden;
+}
+
+#eachMovie a{
+  color: #fff;
+  font-size: 15px;
+  transition: .3s all ease;
+}
+
+#eachMovie a:hover {
+  color: #666;
+}
+
+#eachMovie p {
+  font-size: 15px;
+}
+
+#eachMovieSection {
+  margin-top: 150px;
+  padding-left: 70px;
+}
+
+/* #mainFooter {
+  clear: both;
+  background-color: #000;
+  height: 100px;
+  padding-top: 40px;
+  width: 100%;
+}
+
+#mainFooter h2 {
+  font-weight: 100;
+  color: #fff;
+  font-size: 15px;
+} */
+
+#detailArea {
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  width: 1280px;
+
+}
+
+#detailArea video {
+  width: 1280px;
+  margin-bottom: 100px;
+}
+
+#detailImg img {
+  height: 400px;
+}
+
+#detailImg {
+  float: left;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
+#description {
+  float: right;
+  width: 600px;
+  margin-right: 150px;
+}
+
+#description h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#description p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#description a {
+  color: #fff;
+  font-size: 20px;
+  transition: .3s all ease;
+}
+
+#description a:hover {
+  color: #666;
+}

@@ -1,0 +1,210 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../images/background.jpg) no-repeat fixed;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  position: absolute;
+  text-align: center;
+}
+
+#login_form{
+  text-align: center;
+  background-color: #000;
+  width: 500px;
+  border: 1px solid #999999;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: .7;
+}
+
+h1{
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+
+label{
+  color: #fff;
+  font-weight: 100;
+}
+
+input{
+  margin-bottom: 10px;
+}
+
+button{
+  padding: 5px 10px 5px 10px;
+  margin-top: 20px;
+}
+
+button:hover{
+  background-color: #fff;
+}
+
+#admin_index{
+  text-align: center;
+  background-color: #000;
+  width: 600px;
+  border: 1px solid #999999;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: .7;
+}
+
+h2{
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  font-weight: 100;
+}
+
+a{
+  font-weight: 300;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 3%;
+}
+
+a:hover{
+  color: #999999;
+}
+
+#admin_createuser{
+  text-align: center;
+  background-color: #000;
+  width: 500px;
+  border: 1px solid #999999;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: .7;
+}
+
+#admin_edituser{
+  text-align: center;
+  background-color: #000;
+  width: 500px;
+  border: 1px solid #999999;
+  height: 420px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: .7;
+}
+
+#admin_deleteuser{
+  text-align: center;
+  background-color: #000;
+  width: 500px;
+  border: 1px solid #999999;
+  height: 420px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: .7;
+}
+
+p{
+  background-color: red;
+  color: #fff;
+}
+
+#loginNav {
+  float: left;
+  width: 300px;
+}
+
+#loginNav li a{
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 100;
+  transition: .3s all ease;
+}
+
+#loginNav li a:hover {
+  color: #666;
+}
+
+#loginIndex {
+  float: right;
+  margin-right: 60px;
+  width: 300px;
+}
+
+#loginIndex li a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 100;
+  transition: .3s all ease;
+}
+
+#loginIndex li a:hover {
+  color: #666;
+}
+
+#admin_addmovie {
+  text-align: center;
+  background-color: #000;
+  width: 550px;
+  border: 1px solid #999999;
+  height: 550px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: .7;
+}
+
+#caller_edit {
+  text-align: center;
+  background-color: #000;
+  width: 550px;
+  border: 1px solid #999999;
+  height: 680px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: .7;
+}
+
+#editPic {
+  color: #fff;
+  margin-left: 80px;
+
+}
